@@ -8,6 +8,13 @@
     <artifactId>World-world</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+    </dependencies>
     <name>eluyun-appserver</name>
     <url>http://maven.apache.org</url>
 
