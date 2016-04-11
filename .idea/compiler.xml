@@ -24,9 +24,17 @@
         <processorPath useClasspath="true" />
         <module name="myWorld" />
       </profile>
+      <profile default="false" name="Annotation profile for World-world" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="World-world" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="myWorld" target="1.7" />
+      <module name="World-world" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
